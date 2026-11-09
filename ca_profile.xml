@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommunityApplications>
+  <Profile>
+Tasqs (tasqs.com) is a task manager with a webhook ingress. This repository holds the Community Applications template for the Tasqs notification agent, which adds a "Tasqs" entry to Settings -> Notifications -> Agents so that unRAID notifications become tasks, and an all-clear completes the task the warning opened.
+
+Source: https://github.com/tasqs-public/unraid-agent
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/tasqs-public/unraid-ca-templates/main/tasqs.png</Icon>
+  <WebPage>https://tasqs.com</WebPage>
+  <Forum>https://github.com/tasqs-public/unraid-agent/issues</Forum>
+</CommunityApplications>
