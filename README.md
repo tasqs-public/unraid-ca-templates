@@ -7,3 +7,5 @@ The [Community Applications](https://docs.unraid.net/community-applications/) te
 - `tasqs.png` — the icon
 
 Changelog and version come from the `.plg`, not from here. Nothing else should be added to this repository: CA parses every `.xml` it finds.
+
+Thank you!
