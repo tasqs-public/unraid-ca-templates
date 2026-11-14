@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Plugin>
   <Name>Tasqs</Name>
-  <PluginAuthor>Tasqs</PluginAuthor>
-  <!-- Must match the pluginURL in the .plg byte for byte. -->
   <PluginURL>https://raw.githubusercontent.com/tasqs-public/unraid-agent/main/plugin/tasqs.plg</PluginURL>
-  <Overview>
-Turn unRAID notifications into tasks in Tasqs (tasqs.com). Adds a "Tasqs" agent to Settings -> Notifications -> Agents, next to Discord and Pushover: paste the webhook URL from your Tasqs profile, tick the importance levels to forward, done.
-
-A disk running hot becomes a task due today with the alert's details; when unRAID reports that it "returned to normal", the task completes itself. Repeats of the same alert are folded into one task, so a disk that complains every minute makes one task, not sixty. Optional HMAC signing and an IP allowlist on the Tasqs side mean a leaked URL alone can add nothing.
-
-One bash script, no dependencies beyond what unRAID ships (bash, curl, openssl). Requires a Tasqs Premium or Power User plan.
-  </Overview>
-  <!-- The .plg carries support= and min=, which override these two. -->
-  <Support>https://github.com/tasqs-public/unraid-agent/issues</Support>
   <Project>https://github.com/tasqs-public/unraid-agent</Project>
-  <ReadMe>https://raw.githubusercontent.com/tasqs-public/unraid-agent/main/README.md</ReadMe>
-  <Category>Tools:Utilities</Category>
+  <Support>https://github.com/tasqs-public/unraid-agent/issues</Support>
   <Icon>https://raw.githubusercontent.com/tasqs-public/unraid-ca-templates/main/tasqs.png</Icon>
+  <ReadMe>https://raw.githubusercontent.com/tasqs-public/unraid-agent/main/README.md</ReadMe>
+  <Overview>Turn Unraid notifications into tasks in Tasqs (tasqs.com). Adds a Tasqs agent to Settings, Notifications, Agents, next to Discord and Pushover: paste the webhook URL from your Tasqs profile and tick the importance levels to forward. A disk running hot becomes a task due today with the alert's details; when Unraid reports that it returned to normal, the task completes itself. Repeats of the same alert are folded into one task. Optional HMAC signing and an IP allowlist on the Tasqs side. One bash script, no dependencies beyond what Unraid ships (bash, curl, openssl). Requires a Tasqs Premium or Power User plan.</Overview>
+  <Category>Tools:Utilities</Category>
   <License>MIT</License>
   <MinVer>6.12.0</MinVer>
-  <ExtraSearchTerms>tasks todo notifications agent webhook</ExtraSearchTerms>
 </Plugin>
