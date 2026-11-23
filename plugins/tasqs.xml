@@ -2,6 +2,7 @@
 <Plugin>
   <Name>Tasqs</Name>
   <PluginURL>https://raw.githubusercontent.com/tasqs-public/unraid-agent/main/plugin/tasqs.plg</PluginURL>
+  <PluginAuthor>Tasqs</PluginAuthor>
   <Project>https://github.com/tasqs-public/unraid-agent</Project>
   <Support>https://github.com/tasqs-public/unraid-agent/issues</Support>
   <Icon>https://raw.githubusercontent.com/tasqs-public/unraid-ca-templates/main/tasqs.png</Icon>
